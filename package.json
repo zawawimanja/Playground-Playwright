@@ -12,9 +12,11 @@
   "description": "",
   "devDependencies": {
     "@playwright/test": "^1.46.1",
-    "@types/node": "^22.5.1"
+    "@types/node": "^22.5.1",
+    "@zerostep/playwright": "^0.1.5"
   },
   "dependencies": {
-    "dotenv": "^16.4.5"
+    "dotenv": "^16.4.5",
+    "zerostep": "^1.2.1"
   }
 }
