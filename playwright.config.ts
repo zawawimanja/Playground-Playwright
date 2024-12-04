@@ -9,7 +9,7 @@ export default defineConfig({
   workers: process.env.CI ? 1 : undefined,
   reporter: "html",
   use: {
-    headless: false, // Set this to false to see the browser
+    headless: true, // Set this to false to see the browser
     trace: "on-first-retry",
     // You can also set other options here
   },
